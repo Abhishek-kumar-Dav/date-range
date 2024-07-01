@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Fabric Question (Date Range )"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "65c316a9-6cfe-493e-a638-e1c8bee54790"
+  }
+}

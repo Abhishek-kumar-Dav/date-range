@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Fabric Question (Date Range )"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1a0c4401-38f6-4b85-a2cb-110b9418c70c"
+  }
+}

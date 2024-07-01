@@ -27,15 +27,6 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"33e601e6dd66c807c331\",\"layouts\":[{\"id\":0,\"position\":{\"x\":149.68936533073457,\"y\":86.48718885775776,\"z\":3,\"width\":149.68936533073457,\"height\":272.76728793600523,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"All Measures.sum\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"sum\"},\"Name\":\"All Measures.sum\",\"NativeReferenceName\":\"sum\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"sum\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
-          "filters": "[]",
-          "height": 272.77,
-          "width": 149.69,
-          "x": 149.69,
-          "y": 86.49,
-          "z": 3.00
-        },
-        {
           "config": "{\"name\":\"6bba8d29fd2dd9507ce3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":841.5868761927966,\"y\":0,\"z\":2,\"width\":286.0730092987372,\"height\":272.76728793600523,\"tabOrder\":2}}],\"singleVisual\":{\"visualType\":\"waterfallChart\",\"projections\":{\"Breakdown\":[{\"queryRef\":\"Range Table.Exclusion End Time.Variation.Date Hierarchy.Year\"}],\"Category\":[{\"queryRef\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Year\",\"active\":true},{\"queryRef\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Quarter\"},{\"queryRef\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Month\"},{\"queryRef\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Day\"}],\"Tooltips\":[{\"queryRef\":\"All Measures.Exclude\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"Range Table\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"All Measures\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Exclusion End Time\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Range Table.Exclusion End Time.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Sum of Date Hierarchy Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Exclusion Start Time\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"Exclusion Start Time Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Exclusion Start Time\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"Exclusion Start Time Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Exclusion Start Time\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"Exclusion Start Time Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Name\":\"Variation\",\"Property\":\"Exclusion Start Time\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"Range Table.Exclusion Start Time.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"Exclusion Start Time Day\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Exclude\"},\"Name\":\"All Measures.Exclude\",\"NativeReferenceName\":\"Exclude\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 272.77,
@@ -52,6 +43,15 @@
           "x": 527.39,
           "y": 399.11,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b8a277ff92ff87983606\",\"layouts\":[{\"id\":0,\"position\":{\"x\":149.94285714285715,\"y\":0,\"z\":3,\"width\":149.94285714285715,\"height\":274.2857142857143,\"tabOrder\":3}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"All Measures.sum\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"All Measures\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"sum\"},\"Name\":\"All Measures.sum\",\"NativeReferenceName\":\"sum\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"sum\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 274.29,
+          "width": 149.94,
+          "x": 149.94,
+          "y": 0.00,
+          "z": 3.00
         },
         {
           "config": "{\"name\":\"d52e9057c8079453b3c7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":149.5110535456713,\"y\":139.86517912336993,\"z\":1,\"width\":12.057343027876719,\"height\":24.114686055753438,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"\"}]}]}}]}}}",

@@ -1084,7 +1084,7 @@
             "name": "sum",
             "expression": "SUM('Main Table'[Value])",
             "formatString": "0",
-            "lineageTag": "083719d1-700c-4fa9-98eb-4b1986b2c31b"
+            "lineageTag": "63497eb3-f3a8-4361-9231-8129f51d3cc4"
           }
         ],
         "partitions": [

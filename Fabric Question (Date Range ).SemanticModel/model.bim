@@ -1085,6 +1085,17 @@
             "expression": "SUM('Main Table'[Value])",
             "formatString": "0",
             "lineageTag": "63497eb3-f3a8-4361-9231-8129f51d3cc4"
+          },
+          {
+            "name": "avg",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "AVERAGE('Main Table'[Value])",
+            "lineageTag": "fe332443-9cab-4c5c-b08c-22f766498d7e"
           }
         ],
         "partitions": [
